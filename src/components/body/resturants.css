@@ -1,0 +1,51 @@
+.resturant-list {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+    margin: 20px;
+    border: 2px blue solid;
+}
+
+.resturant-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 10px;
+    border: 4px red solid;
+}
+
+.resturant-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.resturant-logo {
+    margin-bottom: 10px;
+    /* Add any specific styling for the logo here */
+}
+
+.resturant-title {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.resturant-address {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.resturant-distance {
+    font-size: 12px;
+}
+
+.resturant-timing {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.searchbar-container{
+    display: flex;
+}

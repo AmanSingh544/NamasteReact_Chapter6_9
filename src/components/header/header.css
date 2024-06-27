@@ -1,0 +1,17 @@
+.header{
+    border:2px black solid;
+    display: flex;
+}
+.title{
+    width: 50%;
+    margin: 10px;
+}
+.content-container{
+    display: flex;
+    margin: 10px;
+    width: 50%;
+}
+.content{
+    display: flex;
+    margin-left:20px
+}
